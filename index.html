@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cuestionario sobre Servidumbres</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <div class="container">
+        <h1>Cuestionario sobre Servidumbres (Property Easements)</h1>
+        <form id="questionnaire">
+            <!-- Question 1 -->
+            <div class="question" id="question-1">
+                <p>1. ¿Qué es una servidumbre?</p>
+                <label><input type="radio" name="q1" value="respuesta1"> Respuesta 1</label><br>
+                <label><input type="radio" name="q1" value="respuesta2"> Respuesta 2</label><br>
+                <label><input type="radio" name="q1" value="respuesta3"> Respuesta 3</label><br>
+            </div>
+            
+            <!-- Add 33 more questions, total 34 -->
+            
+            <button type="submit">Enviar respuestas</button>
+        </form>
+        <div id="results" style="display:none;"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
